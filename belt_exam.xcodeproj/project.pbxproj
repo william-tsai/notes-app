@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		BC4E49CE201BA3E500B965AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4E49CD201BA3E500B965AB /* AppDelegate.swift */; };
-		BC4E49D0201BA3E500B965AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4E49CF201BA3E500B965AB /* ViewController.swift */; };
+		BC4E49D0201BA3E500B965AB /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4E49CF201BA3E500B965AB /* ComposeViewController.swift */; };
 		BC4E49D3201BA3E500B965AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC4E49D1201BA3E500B965AB /* Main.storyboard */; };
 		BC4E49D6201BA3E500B965AB /* belt_exam.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BC4E49D4201BA3E500B965AB /* belt_exam.xcdatamodeld */; };
 		BC4E49D8201BA3E500B965AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC4E49D7201BA3E500B965AB /* Assets.xcassets */; };
 		BC4E49DB201BA3E500B965AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC4E49D9201BA3E500B965AB /* LaunchScreen.storyboard */; };
 		BC4E49E6201BA3E600B965AB /* belt_examTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4E49E5201BA3E600B965AB /* belt_examTests.swift */; };
 		BC4E49F1201BA3E600B965AB /* belt_examUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4E49F0201BA3E600B965AB /* belt_examUITests.swift */; };
+		BC4E49FF201BA65800B965AB /* NotesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4E49FE201BA65800B965AB /* NotesTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,7 @@
 /* Begin PBXFileReference section */
 		BC4E49CA201BA3E500B965AB /* belt_exam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = belt_exam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC4E49CD201BA3E500B965AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BC4E49CF201BA3E500B965AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BC4E49CF201BA3E500B965AB /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
 		BC4E49D2201BA3E500B965AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BC4E49D5201BA3E500B965AB /* belt_exam.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = belt_exam.xcdatamodel; sourceTree = "<group>"; };
 		BC4E49D7201BA3E500B965AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		BC4E49EC201BA3E600B965AB /* belt_examUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = belt_examUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC4E49F0201BA3E600B965AB /* belt_examUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = belt_examUITests.swift; sourceTree = "<group>"; };
 		BC4E49F2201BA3E600B965AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC4E49FE201BA65800B965AB /* NotesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				BC4E49CD201BA3E500B965AB /* AppDelegate.swift */,
-				BC4E49CF201BA3E500B965AB /* ViewController.swift */,
+				BC4E49FE201BA65800B965AB /* NotesTableViewController.swift */,
+				BC4E49CF201BA3E500B965AB /* ComposeViewController.swift */,
 				BC4E49D1201BA3E500B965AB /* Main.storyboard */,
 				BC4E49D7201BA3E500B965AB /* Assets.xcassets */,
 				BC4E49D9201BA3E500B965AB /* LaunchScreen.storyboard */,
@@ -262,7 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC4E49D0201BA3E500B965AB /* ViewController.swift in Sources */,
+				BC4E49D0201BA3E500B965AB /* ComposeViewController.swift in Sources */,
+				BC4E49FF201BA65800B965AB /* NotesTableViewController.swift in Sources */,
 				BC4E49CE201BA3E500B965AB /* AppDelegate.swift in Sources */,
 				BC4E49D6201BA3E500B965AB /* belt_exam.xcdatamodeld in Sources */,
 			);
